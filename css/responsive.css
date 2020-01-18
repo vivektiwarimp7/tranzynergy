@@ -1,0 +1,93 @@
+
+@media only screen and (max-width: 800px) {
+..footerc{
+	background:#fff !important;
+}	
+.wizard-card[data-color="purple"] .moving-tab {
+    font-size: 12px;
+}
+header {
+    position: relative;
+    width: 100%;
+    z-index: 11;
+}
+.mobile-hide{
+	display:none;
+}
+.mobilehide{
+	display:block;
+}
+nav#cssmenu {
+    position: absolute;
+    right: 0;
+}
+.slider-text {
+    height: auto;
+}
+.desktop-hide{
+	display:block;
+}
+.ct-width {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    right: 0;
+    top: 0;
+}
+.forth-first-inner {
+    background: #ddd;
+    padding: 70px 15px;
+    border-bottom-right-radius: 0;
+}
+.get-started-inner {
+    margin-bottom: 30px;
+    display: block;
+}
+.get-started-inner span {
+    font-size: 120px;
+    width: 26%;
+}
+.nopadding {
+    padding: 15px;
+    margin-top: 50px;
+}
+.nav.nav-tabs{
+	margin-right:0;
+}
+.third-second-inner ul li a span {
+    padding-right: 0px;
+}
+.third-second-inner ul li a{
+	font-size:16px;
+}
+.m-text-slider {
+    height: 180px;
+    padding-top: 30px;
+}
+a#video img{
+	left:36%;
+}
+.join-button {
+    text-align: center;
+    padding: 0;
+    margin-top: 30px;
+}
+
+.join-text h2 {
+    font-size: 38px;
+}
+
+
+}
+
+/* IPAD PRO MEDIA QUERY */
+
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	.mobile-hide {
+    display: none;
+}
+	 .desktop-hide {
+    display: block;
+}
+}

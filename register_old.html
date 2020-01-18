@@ -1,0 +1,59 @@
+<?html include('header.html'); ?>
+
+
+   <!-- header closed =-->
+
+   <section class="Loginsectn Registrsectn pt-100">
+  <div class="container">
+    <div class="Loginmain">
+      <div class="row justify-content-center">
+        <div class="col-md-6 col-sm-6 col-12">
+          <div class="LOginForm">
+            <div class="formhead">
+              <h2>Register</h2>
+              <p class="register-message" style="display:none"></p>
+              <p class="pass_not_match"></p>
+              <form class="loginforminner" method="POST" name="register-form">
+                <div class="form-group cstmcls">
+                  <label for="fname" class="cstmlbl"><i class="fa fa-user" aria-hidden="true"></i></label>
+                  <input type="text" name="fnamee" id="new-firstname" placeholder="First Name">
+                </div>
+
+                <div class="form-group cstmcls">
+                  <label for="lname" class="cstmlbl"><i class="fa fa-user" aria-hidden="true"></i></label>
+                  <input type="text" name="lnamee" id="new-lastname" placeholder="Last Name">
+                </div>
+
+                <div class="form-group cstmcls">
+                  <label for="email" class="cstmlbl"><i class="fa fa-envelope" aria-hidden="true"></i></label>
+                  <input type="email" name="email" id="new-useremail" placeholder="Email address">
+                </div>
+
+                <div class="form-group cstmcls">
+                  <label for="pass" class="cstmlbl"><i class="fa fa-lock" aria-hidden="true"></i></label>
+                  <input type="password" name="pass" id="new-userpassword" placeholder="Password ">
+                </div>
+
+                <div class="form-group cstmcls">
+                  <label for="pass" class="cstmlbl"><i class="fa fa-lock" aria-hidden="true"></i></label>
+                  <input type="password" name="pass" id="re-pwd" placeholder=" Confirm Password ">
+                </div>  
+                <div class="form-group form-button cstmcls">
+                  <input type="submit" name="signup" id="register-button" onclick="window.location.href = 'http://webandappdevelopers.com/tranzynergy/information_form.html';" class="form-submit custom-btn" value="Register">
+                </div>
+
+              </form>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<?html include('footer.html'); ?>
